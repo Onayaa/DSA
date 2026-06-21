@@ -9,9 +9,8 @@ import java.util.Queue;
  *
  * @author FMT
  */
-
 public class QueueStackPushFriendly {
-
+    
     Queue<Integer> q1 = new LinkedList<>();
     Queue<Integer> q2 = new LinkedList<>();
 
@@ -43,3 +42,4 @@ public class QueueStackPushFriendly {
         System.out.println(s.pop());
     }
 }
+
